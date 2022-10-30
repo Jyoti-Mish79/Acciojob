@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=DM+Sans&family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: #F3F3F3;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 2688px;
+
+    background: #F3F3F3;
+}
+
+
+nav {
+    position: absolute;
+    width: 1120px;
+    height: 35px;
+    left: calc(50% - 1120px/2);
+    top: 102px;
+}
+
+.b ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-family: 'DM Sans', sans-serif;
+    color: #181717;
+}
+
+.b li a {
+    align-items: right;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.b li a:hover {
+    color: rgb(123, 18, 18);
+}
+
+main {
+    position: absolute;
+    width: 360px;
+    height: 129px;
+    left: calc(50% - 360px/2 - 380px);
+    top: 360px;
+}
+
+.main {
+    background: #E5E5E5;
+
+}
+
+.mnm h4 {
+    position: absolute;
+    left: 10%;
+    right: 70.87%;
+    float: left;
+    top: 28%;
+    bottom: 95.98%;
+    justify-content: flex-end;
+    align-items: 88px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.greo h5 {
+    position: absolute;
+    left: 10%;
+    right: 68.21%;
+    top: 29%;
+    bottom: 54.97%;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.brr h6 {
+    position: absolute;
+    left: 10%;
+    right: 71.84%;
+    top: 30.66%;
+    bottom: 61.95%;
+
+    /* Sub-text */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 121.5%;
+    /* or 17px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Gray */
+
+    color: #606060;
+}
+
+.kmk img {
+    position: absolute;
+    left: 37.86%;
+    right: 27%;
+    top: 28%;
+    bottom: 61.9%;
+
+    /* Main Gray */
+
+    background: #606060;
+}
+
+.brb h6 {
+
+    position: absolute;
+    left: 10%;
+    right: 71.84%;
+    top: 30.66%;
+    bottom: 61.95%;
+
+    /* Sub-text */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 121.5%;
+    /* or 17px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Gray */
+
+    color: #606060;
+
+}
+
+.sifu h5 {
+    position: absolute;
+    left: 10%;
+    right: 70.87%;
+    top: 37.36%;
+    bottom: 22.41%;
+
+    /* Sub Header / Link */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.fgf h4 {
+    position: absolute;
+    left: 10%;
+    right: 70.87%;
+    top: 46%;
+    bottom: 95.98%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.lol img {
+    position: absolute;
+    left: 37.86%;
+    right: 27%;
+    top: 46%;
+    bottom: 45.9%;
+
+    /* Main Gray */
+
+    background: #606060;
+}
+
+.grow h5 {
+    position: absolute;
+    left: 10%;
+    right: 68.21%;
+    top: 47.3%;
+    bottom: 54.97%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.sifuu h5 {
+    position: absolute;
+    left: 10%;
+    right: 70.87%;
+    top: 53.36%;
+    bottom: 22.41%;
+
+    /* Sub Header / Link */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.ght h4 {
+    position: absolute;
+    left: 10%;
+    right: 70.87%;
+    top: 59%;
+    bottom: 95.98%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+
+}
+
+.got img {
+    position: absolute;
+    left: 37.86%;
+    right: 27%;
+    top: 59%;
+    bottom: 34.9%;
+
+    /* Main Gray */
+
+    background: #606060;
+}
+
+.go h5 {
+    position: absolute;
+    left: 10%;
+    right: 68.21%;
+    top: 60.3%;
+    bottom: 54.97%;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.ifuu h5 {
+    position: absolute;
+    left: 10%;
+    right: 70.87%;
+    top: 64.36%;
+    bottom: 22.41%;
+
+    /* Sub Header / Link */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Gray */
+
+    color: #606060;
+
+}
+
+.ff h1 {
+    position: absolute;
+    width: 360px;
+    height: 129px;
+    left: calc(50% - 360px/2 - 380px);
+    top: 360px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 97.2%;
+    letter-spacing: -0.03em;
+
+    color: #181717;
+
+}
+
+.kk p {
+    position: absolute;
+    width: 580px;
+    height: 111px;
+    left: calc(50% - 580px/2 + 206px);
+    top: 424px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    color: #606060;
+
+}
+
+svg {
+    position: absolute;
+    width: 33.61px;
+    height: 38.04px;
+    left: calc(50% - 33.61px/2 - 543.16px);
+    top: 605.18px;
+    background-color: #F3F3F3;
+    color: #181717;
+}
+
+
+
+
+.b1 li a {
+    align-items: right;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.b1 li a:hover {
+    color: rgb(123, 18, 18);
+}
+
+.shh {
+    position: absolute;
+    width: 1120px;
+    height: 1242px;
+    left: 160px;
+    top: 360px;
+
+}
+
+.kop {
+    position: absolute;
+    width: 1116px;
+    height: 250px;
+    left: calc(50% - 480px/2 - 320px);
+    top: 360px;
+
+    /* Heading-1 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93%;
+    /* or 58px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.mkk {
+    position: absolute;
+    width: 421px;
+    height: 590px;
+    left: calc(50% - 421px/2 + 349.5px);
+    top: 360px;
+    float: left;
+    top: 5px;
+    gap: 200px;
+    background: url(.jpg);
+}
+
+.fbb {
+    position: absolute;
+    width: 575px;
+    height: 300px;
+    left: calc(50% - 575px/2 - 272.5px);
+    top: 200px;
+
+    /* Heading-2 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    /* or 37px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Gray */
+
+    color: #606060;
+
+}
+
+.bbbb h4 {
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: calc(50% - 124px/2 - 498px);
+    top: 1089px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.gh h5 {
+    position: absolute;
+    width: 436px;
+    height: 54px;
+    left: calc(50% - 436px/2 - 155px);
+    top: 1086px;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.ops h5 {
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: calc(50% - 213px/2 - 265.5px);
+    top: 1164px;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.kl h4 {
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: calc(50% - 124px/2 - 498px);
+    top: 1261px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+
+    color: #181717;
+}
+
+.pra h5 {
+    position: absolute;
+    width: 401px;
+    height: 44px;
+    left: calc(50% - 401px/2 - 172.5px);
+    top: 1258px;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+jyo {
+    position: absolute;
+    width: 1120px;
+    height: 2px;
+    left: calc(50% - 1120px/2);
+    top: 1436px;
+
+    background: #181717;
+}
+
+.shi h3 {
+    position: absolute;
+    width: 347px;
+    height: 71px;
+    left: calc(50% - 347px/2 - 386.5px);
+    top: 1509px;
+
+    /* Heading-2 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    /* or 37px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+
+}
+
+.hum h4 {
+    position: absolute;
+    width: 372px;
+    height: 37px;
+    left: calc(50% - 372px/2 + 295px);
+    top: 1516px;
+
+    /* Heading-2 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    /* or 37px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+.kit h6 {
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: calc(50% - 110px/2 + 164px);
+    top: 1580px;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+
+footer {
+    position: absolute;
+    width: 1120px;
+    height: 20px;
+    left: 160px;
+    top: 1772px;
+}
+
+.aa2 h2 {
+    position: absolute;
+    left: 0%;
+    right: 75.82%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Navigation */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    /* Secondary */
+
+    color: #2429AF;
+
+}
+
+.b2 ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-family: 'DM Sans', sans-serif;
+    color: #181717;
+}
+
+.b2 li a {
+    align-items: right;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    gap: 1000px;
+    text-decoration: none;
+    justify-content: space-between;
+}
